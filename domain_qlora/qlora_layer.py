@@ -1,4 +1,5 @@
 import numpy as np
+from typing import Tuple
 
 class NF4Quantizer:
     """NormalFloat 4-bit (NF4) Quantization (Dettmers et al., 2023)."""
