@@ -7,6 +7,11 @@
 
 An end-to-end parameter-efficient fine-tuning (PEFT) and 4-bit quantization framework implementing **QLoRA (Dettmers et al., 2023)** from scratch. Freezes the multi-billion parameter base model into **NormalFloat 4-bit (NF4)** representation and injects low-rank trainable adapter tensors ($A$ and $B$) to achieve domain adaptation with a 96%+ reduction in GPU memory requirements.
 
+
+<p align="center">
+  <img src="assets/demo.gif" alt="Portfolio Showcase" width="100%" style="border-radius: 10px;">
+</p>
+
 ---
 
 ## 🏛️ Quantization & Adapter Architecture
